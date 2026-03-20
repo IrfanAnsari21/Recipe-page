@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    place-content: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    max-width: 700px;
+    background-color: white;
+    padding: 2rem;
+    margin: 5rem 0;
+    border-radius: 1.5rem;
+    font-family: "Outfit";
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.about h1 {
+    font-size: 2.3rem;
+    color: hsl(24, 5%, 18%);
+}
+
+ul, ol, li, p {
+    margin-bottom: 1rem;
+}
+ul, ol, li {
+    padding-left: 1.5rem;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.prep-time h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit";
+    font-weight: 600;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.prep-time li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.nutrition {
+    margin-top: 1.5rem;
+}
+
+.ingredients, .instructions, .nutrition td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 1rem 0;
+}
+
+.quantity {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+}
+
+.nutrition td {
+    padding-left: 2rem;
+}
+
+#no-border {
+    border-bottom: none;
+}
+
+/*Mobile responsive*/
+@media screen and (max-width:600px) {
+    .container{
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    .about, .prep-time, .ingredients, .instructions, .nutrition {
+        padding: 1.5rem;
+    }
+
+    .prep-time {
+        margin: 1.5rem;
+    }
+}
