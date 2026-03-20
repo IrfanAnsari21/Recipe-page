@@ -5,8 +5,8 @@ This is my solution to the Recipe Page challenge on Frontend Mentor. It helped m
 ## Overview
 
 ### Links
-- Solution URL: [Add your GitHub repo link here]
-- Live Site URL: [Add your live site link here]
+- Solution URL: [https://github.com/IrfanAnsari21/Recipe-page.git]
+- Live Site URL: [https://irfanansari21.github.io/Recipe-page/]
 
 ### Screenshot
 ![Project Screenshot](./preview.jpg)
