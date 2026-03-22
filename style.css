@@ -93,7 +93,7 @@ table {
     padding-left: 2rem;
 }
 
-#no-border {
+#no-border-1, #no-border-2 {
     border-bottom: none;
 }
 
